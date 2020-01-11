@@ -7,16 +7,19 @@
 }
 
 .wrapper {
-	margin: 2em;
+	background-color: white;
+	margin: 1em 1em;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+  	padding: 20px;
 }
 
-.heroimage {
-	background-image: url(../images/hero.jpg);
-  	height: 1080px;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-	background-attachment: fixed;
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+  	padding: 20px;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 	line-height: 1.5;
@@ -36,18 +39,20 @@ nav a {
 	letter-spacing: 2px
 	color: #24292b;
 	padding:5px 10px;
+	background-color: #E8C66A;
 }
 
 .social {	
 	padding: 5 10px;
 	margin-left: 0.5em;
 	float: right;
+	background-color: #E8C66A;
 }
 
 #eve {
 	color: #337ca9;
 	margin-left: 900px;
-	margin-top: 1.5em;
+	margin-top: .5em;
 } 
 
 h1, h2 {
@@ -57,14 +62,15 @@ h1, h2 {
 	letter-spacing: 2px
 }
 
-.section {
+section {
 	font-family: 'Coustard', serif;
 	font-size: 2em;
 	text-align: center;
-	color: #fff;
+	color: #000;
 	letter-spacing: 2px;
-	padding: 4em 4em;
-	background-color: #24292b;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+  	padding: 20px;
 }
 
 p {
@@ -74,6 +80,7 @@ p {
 	width: 33em;
 	color: #24292b;
 	margin-top: 1em;
+	margin-bottom: 3em;
 }
 
 a {
@@ -88,6 +95,12 @@ br {
 
 img {
 	width: 25px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+  	padding: 20px;
 }
 
 h4 {
