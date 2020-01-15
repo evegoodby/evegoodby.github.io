@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coustard&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	background-color: white;
+	margin: 1em 1em;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+  	padding: 20px;
+}
+
+nav a:hover {
+	color: #337ca9;
+	text-decoration-line: line-through;
+}
+
+nav a {
+	display: inline-block;
+	vertical-align: top;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	letter-spacing: 2px
+	color: #24292b;
+	padding:5px 10px;
+	background-color: #E8C66A;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.social {	
+	padding: 5 10px;
+	margin-left: 0.5em;
+	float: right;
+	background-color: #E8C66A;
+}
+
+#margin {
+	width: 600px;
+	margin: auto;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+  	padding: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	line-height: 1.5;
+	color: #24292b;
+	text-align: center;
+	margin: auto;
+}
+
+#eve {
+	color: #337ca9;
+} 
+
+h1, h2 {
+	font-family: 'Coustard', serif;
+	font-size: 6em;
+	display: inline-block;
+	letter-spacing: 2px
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	letter-spacing: 0;
+	color: #000;
+	text-align: center;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+    margin-top: 50px;
+}
+
+section {
+	font-family: 'Coustard', serif;
+	font-size: 2em;
+	text-align: center;
+	color: #000;
+	letter-spacing: 2px;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+  	padding: 40px;
+}
+
+p {
+	color: #24292b;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+br {
+	line-height: 1em;
+}
+
+img {
+	width: 25px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+  	padding: 20px;
+}
+
+h4 {
+	font-size: .75em;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	text-align: center;
+	color: #24292b;
+}
