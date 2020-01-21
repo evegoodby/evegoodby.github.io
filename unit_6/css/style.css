@@ -1,15 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Coustard&display=swap');
 
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing:border-box;
 }
 
 .wrapper {
 	background-color: white;
 	margin: 1em 1em;
 }
+
 nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
@@ -25,7 +27,7 @@ nav a {
 	display: inline-block;
 	vertical-align: top;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 200;
+	font-weight: thin;
 	letter-spacing: 2px
 	color: #24292b;
 	padding:5px 10px;

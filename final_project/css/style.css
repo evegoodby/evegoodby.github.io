@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,400i,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Coustard&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	color: #24292b;
+	font-weight: 400;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	color: #24292b;
+	font-weight: 400;
+}
+
+nav {
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-bottom: 1px solid #ccc;
+}
+
+nav a {
+	padding: .5em .5em;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: #337ca9;
+	text-decoration-line: line-through;
+}
+
+.social {	
+	display: inline-block;
+	padding: .25em .5em;
+	margin-left: .25em;
+	float: right;
+}
+
+#heroimage {
+	background-image: url(../images/hero.jpg);
+	height: 1035px;
+	position: relative;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#eve {
+	color: #337ca9;
+} 
+
+header{
+	margin-left: 50%;
+	margin-top: 11%;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #ccc;
+	width: 35em;
+}
+
+h1, h2 {
+	font-family: 'Coustard', serif;
+	font-size: 6em;
+	display: inline-block;
+	letter-spacing: 0.02em;
+}
+
+p {
+	line-height: 1.5em;
+	width: 33em;
+}
+
+br {
+	line-height: 1em;
+}
+
+section {
+	background-color: #24292b;
+	padding: 2em 2em;
+	margin: auto;
+}
+
+h3 {
+	font-family: 'Coustard', serif;
+	font-size: 2em;
+	text-align: center;
+	color: #fff;
+	padding: 2em;
+	letter-spacing: 2px;
+}
+
+img {
+	width: 25px;
+}
+
+h4 {
+	font-size: .75em;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	padding: 1em 1em;
+	margin: 1em 1em;
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  display: inline-block;
+  padding: 0.5em 0.5em;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0.5em;
+  left: 0.5em;
+  right: 0.5em;
+  top: 0.5em;
+  background-color: #337ca9;
+  opacity: 95%;
+  overflow: hidden;
+  width: 200px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  height: 200px;
+}
+
+.text {
+  color: white;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
