@@ -17,7 +17,7 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: 15px;
 	color: #24292b;
 	font-weight: 400;
 }
@@ -34,6 +34,7 @@ nav {
 	margin-left: 2em;
 	margin-right: 2em;
 	border-bottom: 1px solid #ccc;
+	background-color: white;
 }
 
 nav a {
@@ -53,48 +54,54 @@ nav a:hover {
 	float: right;
 }
 
-#heroimage {
-	background-image: url(../images/hero.jpg);
-	height: 1035px;
-	position: relative;
-	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
+#wrapper {
+	display: flex;
+	background-color: white;
+/*	border: 1px black solid;*/
+	align-items: center;
+	position: fixed;
+}
+
+.image, .right {
+	background-color: white;
+	width: 49.8%;
+	float: left;
+}
+
+.right {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
+	width: 33em;
 }
 
 #eve {
 	color: #337ca9;
 } 
 
-header{
-	margin-left: 50%;
-	margin-top: 11%;
-	padding-bottom: 2em;
-	border-bottom: 1px solid #ccc;
-	width: 35em;
-}
 
 h1, h2 {
 	font-family: 'Coustard', serif;
 	font-size: 6em;
 	display: inline-block;
-	letter-spacing: 0.02em;
 }
 
 p {
 	line-height: 1.5em;
 	width: 33em;
+	letter-spacing: 0.2px;
 }
 
 br {
 	line-height: 1em;
 }
 
-section {
+#background {
 	background-color: #24292b;
 	padding: 2em 2em;
 	margin: auto;
+	position: relative;
+	margin-top: 800px;
+	text-align: center;
 }
 
 h3 {
@@ -110,20 +117,27 @@ img {
 	width: 25px;
 }
 
+.footer {
+	background-color: white;
+	position: absolute;
+	padding: 0 0;
+	width: 100%;
+}
+
 h4 {
 	font-size: .75em;
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	font-weight: 400;
-	padding: 1em 1em;
+	padding: 2em 2em;
 	margin: 1em 1em;
 }
 
 .container {
-  position: relative;
-  width: 200px;
-  display: inline-block;
-  padding: 0.5em 0.5em;
+	position: relative;
+  	display: inline-block;
+  	width: 200px;
+  	padding: 0.5em 0.5em;
 }
 
 .overlay {
