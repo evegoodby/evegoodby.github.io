@@ -204,6 +204,54 @@ video {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+input[type='checkbox'] {
+  display: none;
+}
+
+.lbl-toggle  {
+  display: block;
+  background-color: #337ca9;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 2em;
+  cursor: pointer;
+}
+
+.lbl-toggle:hover {
+  color: white;
+  text-decoration-line: line-through;
+}
+
+.collapsible-content .content-inner {
+  background: #24292b;
+  padding: 2em;
+}
+
+.collapsible-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height .25s ease-in-out;
+}
+
+.toggle:checked + .lbl-toggle + .collapsible-content {
+  max-height: 100vh;
+}
+
+.toggle:checked + .lbl-toggle::before {
+  transform: rotate(90deg) translateX(-3px);
+}
+
+.toggle:checked + .lbl-toggle {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
 @media screen and (max-width: 1700px) {
 	video {
 		height: 300px;
