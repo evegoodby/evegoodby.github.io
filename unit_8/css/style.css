@@ -378,6 +378,9 @@ video {
 	#toggle:checked + nav {
 		display: block;
 	}
+	#background {
+		padding: 1em 1em;
+	}
 }
 @media screen and (max-width: 660px) {
 	p {
@@ -417,8 +420,42 @@ video {
 		font-size: .5em;
 	}
 }
-@media screen and (max-width: 465px) {
+@media screen and (max-width: 435px) {
 	p {
-		width: 26em;
-	} 
-
+		width: 25em;
+	}
+@media screen and (max-width: 400px) {
+	p {
+		width: 25em;
+		font-size: .85em;
+	}
+	h1, h2 {
+		font-size: 3em;
+	}
+	#background {
+		margin-top: 650px;
+	}
+}
+@media screen and (max-width: 360px) {
+	p {
+		width: 23em;
+	}
+}
+@media screen and (max-width: 330px) {
+	p {
+		width: 22em;
+	}
+}
+@media screen and (max-width: 315px) {
+	p {
+		width: 20em;
+	}
+}
+@media screen and (max-width: 295px) {
+	p {
+		font-size: .83em;
+	}
+	h1, h2 {
+		font-size: 2.5em;
+	}
+}
