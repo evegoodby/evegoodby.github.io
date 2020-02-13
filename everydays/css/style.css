@@ -415,8 +415,7 @@ input[type='checkbox'] {
 	label {
 		display: block;
 		text-align: center;
-		padding-bottom: 0;
-		padding-top: 2em;
+		padding: 2em 2em;
 	}
 	#toggle:checked + nav {
 		display: block;
@@ -449,9 +448,6 @@ input[type='checkbox'] {
 	}
 	.container:hover .overlay {
 		height: 100px;
-	}
-	#background {
-		margin-top: 700px;
 	}
 	video {
 		height: 100px;
