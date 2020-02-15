@@ -370,11 +370,6 @@ input[type='checkbox'] {
 		margin: 0 auto;
 	}
 }
-@media screen and (max-width: 800px) {
-	video {
-		width: 250;
-	}
-}
 @media screen and (max-width: 790px) {
 	p {
 		width: 40em;
@@ -403,7 +398,7 @@ input[type='checkbox'] {
 		margin-top: 1em;
 	}
 	.social {
-		float:none;
+		float: none;
 	}
 	nav {
 		display: block;
@@ -416,6 +411,7 @@ input[type='checkbox'] {
 		display: block;
 		text-align: center;
 		padding: 2em 2em;
+		margin-top: 1em;
 	}
 	#toggle:checked + nav {
 		display: block;
@@ -424,9 +420,6 @@ input[type='checkbox'] {
 		padding-left: 1em;
 		padding-right: 1em;
 		margin-top: 900px;	
-	}
-	video {
-		height: 500;
 	}
 }
 @media screen and (max-width: 660px) {
@@ -438,23 +431,6 @@ input[type='checkbox'] {
 	p {
 		width: 30em;
 	}
-	.container {
-		width: 100px;
-	}
-	.container > img {
-		width: 100px;
-	}
-	.overlay {
-		width: 100px;
-	}
-	.container:hover .overlay {
-		height: 100px;
-	}
-	video {
-		height: 100px;
-		padding: .2em .2em;
-	}
-}
 @media screen and (max-width: 500px) {
 	p {
 		width: 28em;
@@ -462,6 +438,12 @@ input[type='checkbox'] {
 	}
 	.footer {
 		font-size: .5em;
+	}
+	#wrapper {
+		position: static;
+	}
+	#background {
+		margin-top: 4em;
 	}
 }
 @media screen and (max-width: 435px) {
@@ -475,9 +457,6 @@ input[type='checkbox'] {
 	}
 	h1, h2 {
 		font-size: 3em;
-	}
-	#background {
-		margin-top: 650px;
 	}
 }
 @media screen and (max-width: 360px) {
