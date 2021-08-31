@@ -95,7 +95,7 @@ label:hover {
 
 h1, h2 {
 	font-family: 'SF Pro Text', serif;
-	font-size: 3em;
+	font-size: 1em;
 	display: inline-block;
 }
 
@@ -121,7 +121,7 @@ br {
 }
 
 h3 {
-	font-family: 'Coustard', serif;
+	font-family: 'SF Pro Text', serif;
 	font-size: 2em;
 	text-align: center;
 	color: #fff;
