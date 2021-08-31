@@ -95,13 +95,13 @@ label:hover {
 
 h1, h2 {
 	font-family: 'SF Pro Text', serif;
-	font-size: 1em;
+	font-size: 2em;
 	display: inline-block;
 }
 
 p {
 	line-height: 1.5em;
-	width: 33em;
+	width: 34em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #ccc;
 }
