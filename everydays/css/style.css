@@ -313,7 +313,7 @@ input[type='checkbox'] {
 	}
 }
 
-@media screen and (max-width: 1010px) {
+@media screen and (max-width: 1015px) {
 	p {
 		width: 26em;
 	}
